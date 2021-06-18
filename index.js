@@ -5,10 +5,9 @@ let arr = ['Elocution', 21, 'Clean teeth', 100];
 
 let process = arr.map(function(n) {
   if (typeof(n) === 'number') {
-    return n*3;
+    return n * 3;
   } else {
-    console.log("ARRR!");
-    return n;
+    return "ARRR!";
 }
 });
 console.log(process);
